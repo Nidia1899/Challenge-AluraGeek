@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="reset .css">
+<link rel="stylesheet" href="style.css">
+    <title>Challenge AluraGeek</title>
+</head>
+<body>
+    <header>
+    <div class="menu-header">
+        <div class="container">
+        <img class="menu-icono" src="assets/corazon (2).png">
+        <img class="menu-icono" src="assets/corazon (2).png">
+        <img class="menu-icono" src="assets/corazon (2).png">
+    </div>
+    <div>
+        <h1 class="menu-titulo"> AluraGeek</h1> 
+    </div>
+    </header>
+
+    
+
+    <main class="main-container">
+        
+            
+        <section class="registroProductos">
+            <div class="title-container">
+                
+                <h2 class="registrar">Registrar Productos</h2>
+               </div>
+        <div class="container2">
+            <form class="form-container" data-form>
+                <input class="dato" data-name placeholder="nombre..." type="text">
+                <input class="dato" data-price placeholder="precio..." type="text">
+                <input  class="dato"  data-image placeholder="imagen..." type="text">
+        
+                <div class="button-container">
+                    <button  type="submit" class="button-submit" id="button">Enviar...</button>
+                    <button   type="reset"  class="button-clear"  id="button">Limpiar...</button>
+                </div>
+            </form>
+        </div>
+        </section>
+
+<section id="lista-productos" class="misProductos">
+    <section class="listado-produc car-container">
+        <div >
+            <h2 class="subtitulo">Mis Productos</h2>
+        </div> 
+        <div  data-product class="lista-card">
+    
+
+    <div class="card">
+    <div class="imagen-container">
+        <img src="assets/llavero abejita.jpg"    alt="producto 1">
+        <div class="informacion">
+            <p class="car-titulo">Llavero de abejita</p>
+        </div>
+        <div class="value">
+            <p>$ 8000</p>
+            <button class="delete-button"data-id="${id}">
+            <img class="borrar" src="assets/borrar.png" data-remove="true">
+        </button>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="card">
+        <div class="imagen-container">
+            <img src="assets/pato.jpg"  alt="producto 2">
+            <div class="informacion">
+                <p class="car-titulo">Llavero Pato Donald</p>
+            </div>
+            <div class="value">
+                <p>$ 10000</p>
+                <button class="delete-button"data-id="${id}">
+                <img class="borrar" src="assets/borrar.png" data-remove="true">
+            </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="imagen-container">
+            <img src="assets/ramo tulipanes.jpg"  alt="producto 3">
+            <div class="informacion">
+                <p class="car-titulo">Ramo de tulipanes</p>
+            </div>
+            <div class="value">
+                <p>$ 60000</p>
+                <button class="delete-button"data-id="${id}">
+                <img class="borrar" src="assets/borrar.png" data-remove="true">
+            </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="imagen-container">
+            <img src="assets/ramo rosas.jpg"  alt="producto 4">
+            <div class="informacion">
+                <p class="car-titulo">Ramo de Rosas</p>
+            </div>
+            <div class="value">
+                <p>$ 35000</p>
+                <button class="delete-button"data-id="${id}">
+                <img class="borrar" src="assets/borrar.png" data-remove="true">
+            </button>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="imagen-container">
+            <img src="assets/girasol.jpg" alt="producto 5">
+            <div class="informacion">
+                <p class="car-titulo">Girasol</p>
+            </div>
+            <div class="value">
+                <p>$ 20000</p>
+                <button class="delete-button" data-id="${id}">
+                    <img class="borrar" src="assets/borrar.png" data-remove="true">
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    
+</div>
+    </section>
+</section>
+</main>
+
+<footer >
+    <div class="menu-footer">
+        <div class="container">
+            <div class="icons-and-title">
+        <img class="menu-icono" src="assets/corazon (2).png">
+        <img class="menu-icono" src="assets/corazon (2).png">
+        <img class="menu-icono" src="assets/corazon (2).png">
+        <h1 class="menu-titulo-footer"> AluraGeek</h1> 
+    </div>
+</div>
+</div>
+    <div class="datos">
+      <p>Desarrollado por : Nidia Arrieta</p>
+      <p>Alura Latam 2024</p>
+    </div>
+</footer>
+    <script type="module" src="js/controllers/main.js"></script>
+</body>
+</html>

@@ -22,7 +22,7 @@ Esta disponible para Tables de 768 de ancho, Celular de 422 de ancho
  4. index.html/ Contiene la estructura principal del proyecto.
  5. db.json/ Contiene todos los productos agregados por el formulario
 
-### Desarrollado por Nidia Arrieta ###
+
 
  
 
